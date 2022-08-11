@@ -6,7 +6,6 @@ By running this game it creates new file "highScore.txt" in your directory.
 import random
 randNumber = random.randint(1,100)
 userGuess = None
-# fileName = input("Enter the file name: ")
 guesses = 0
 while(userGuess != randNumber):
     userGuess = int(input("Enter your guess: "))
